@@ -19,7 +19,7 @@
   border-color: rgba(0, 0, 0, 0.1);
   border-style: solid;
   border-width: 1px;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(15px);
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -30,7 +30,7 @@
   border-color: rgba(0, 0, 0, 0.1);
   border-style: solid;
   border-width: 1px;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(15px);
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -43,28 +43,29 @@
   border-radius: 30px;
   border-color: rgba(0, 0, 0, 0.1);
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
 }
 
 .content-div:hover {
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
+  background-color: rgba(0, 0, 0, 0.2);
   background-image: linear-gradient(
     to bottom,
-    #ec7c2650,
-    #7b1fa250
+    #ec7c2630,
+    #7b1fa230
   )!important;
   border-radius: 30px;
   border-color: rgba(0, 0, 0, 0.1);
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
 }
 
 .button {
   z-index: 5;
   background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
-  border-radius: 8px;
+  border-radius: 15px;
   border-color: rgba(0, 0, 0, 0.1);
   border-style: solid;
   border-width: 1px;

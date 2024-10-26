@@ -3,11 +3,11 @@ import WorkImg from '../assets/workImg.jpeg'
 
 const Projects = () => {
   return (
-    <div name='Projects' className='w-full md:h-screen text-zinc-100 bg-gradient-to-tr from-[#ec7c26] to-[#7b1fa2]'>
+    <div name='Projekte' className='w-full md:h-screen text-zinc-100 bg-gradient-to-tr from-[#ec7c26] to-[#7b1fa2]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='inline text-4xl font-bold text-white'>Projects</p>
-                <p className='py-6'>Check out some of my recent projects</p>
+                <p className='inline text-4xl font-bold text-white'>Projekte</p>
+                <p className='py-6'>Schaue dir einige meiner letzten Projekte an</p>
             </div>
 
             <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-2'>

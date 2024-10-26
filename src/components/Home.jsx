@@ -5,7 +5,7 @@ import {Link} from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name="Home" className="sm:pt-[180px] pt-[80px] w-full h-screen bg-gradient-to-tr from-[#ec7c26] to-[#7b1fa2] text-zinc-100">
+    <div name="Start" className="sm:pt-[180px] pt-[80px] w-full h-screen bg-gradient-to-tr from-[#ec7c26] to-[#7b1fa2] text-zinc-100">
         
         <div className='max-w-[1000px] flex flex-col items-center justify-center h-full px-4 mx-auto md:flex-row'>
             <div className="flex flex-col justify-center h-full">
@@ -13,10 +13,10 @@ const Home = () => {
                 <p className="max-w-md py-4 text-zinc-100">
                 I have 8 years of experience building and desgining software.
                 </p>
-
+ 
                 <div>
                     <Link to='Projects' smooth duration={500} className="flex items-center px-6 py-3 my-2 text-white duration-200 cursor-pointer z-5 group prof-btn w-fit hover:scale-105">
-                        Projects
+                        Projekte
                         <span className="duration-200 group-hover:rotate-90">
                             <MdOutlineKeyboardArrowRight size={20} className='ml-1' />
                         </span>

@@ -9,15 +9,15 @@ const NavBar = () => {
     const links = [
         {
             id: 1,
-            link: 'Home'
+            link: 'Start'
         },
         {
             id: 2,
-            link: 'About'
+            link: 'Über mich'
         },
         {
             id: 3,
-            link: 'Projects'
+            link: 'Projekte'
         },
     ]
 
