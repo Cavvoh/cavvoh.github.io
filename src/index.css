@@ -70,3 +70,8 @@
   border-style: solid;
   border-width: 1px;
 }
+
+.proj {
+  border-bottom-width: 4px;
+  border-color: rgba(0, 0, 0, 0.3);
+}
