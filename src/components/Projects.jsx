@@ -31,7 +31,7 @@ const Projects = () => {
                 <div style={{backgroundImage:`url(${WorkImg})`}} className='container flex items-center justify-center mx-auto duration-200 group content-div'>
                     <div className='text-2xl text-center opacity-0 text-zinc-100 group-hover:opacity-100'>
                         <span>
-                            This Website
+                            Diese Website
                         </span>
                         <div className='pt-8 text-center'>
                             {/*<a href="/">
