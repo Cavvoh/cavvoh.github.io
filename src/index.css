@@ -12,6 +12,24 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(66, 66, 66);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(102, 102, 102);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(123, 123, 123);
+  border-radius: 4px;
+}
+
 .navbar {
   z-index: 10;
   background: rgba(0, 0, 0, 0.3);
