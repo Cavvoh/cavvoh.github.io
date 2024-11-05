@@ -22,7 +22,7 @@ const NavBar = () => {
     ]
 
   return (
-    <div className='fixed flex items-center justify-between md:w-[80%] md:ml-[10%] h-20 px-4 text-white z-5 md:rounded-[30px] rounded-b-[30px] navbar w-full'>
+    <div className='fixed flex items-center justify-between md:w-[80%] md:ml-[10%] h-20 px-4 text-white z-5 md:rounded-[30px] rounded-b-[30px] md:mt-[8px] navbar w-full'>
         <div>
             <h1 className='ml-2 text-6xl font-signature'>Cavvoh</h1>
         </div>
@@ -38,14 +38,16 @@ const NavBar = () => {
         </ul>
 
         <div onClick={() => setNav(!nav)} className="z-10 pr-4 cursor-pointer text-zinc-100 md:hidden">
-            {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+            <div>
+                {nav ? <FaTimes size={30} className='duration-200 hover:scale-105' /> : <FaBars size={30} className='duration-200 hover:scale-105' />}
+            </div>
         </div>
 
         {nav && (
             <ul className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-screen bg-gradient-to-tr from-[#ec7c26] to-[#7b1fa2] text-zinc-100">
                 
                 {links.map(({id, link}) =>(
-                    <li key={id} className='px-4 py-6 text-4xl duration-200 cursor-pointer hover:scale-105'>
+                    <li key={id} className='gap-3 px-4 py-6 my-[15px] text-4xl duration-200 cursor-pointer hover:scale-105 btn'>
                     <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>
                         {link}
                     </Link>
