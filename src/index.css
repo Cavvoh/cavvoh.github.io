@@ -33,7 +33,6 @@
 .navbar {
   z-index: 10;
   background: rgba(0, 0, 0, 0.3);
-  border-radius: 30px;
   border-color: rgba(0, 0, 0, 0.1);
   border-style: solid;
   border-width: 1px;

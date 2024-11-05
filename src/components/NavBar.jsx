@@ -22,7 +22,7 @@ const NavBar = () => {
     ]
 
   return (
-    <div className='fixed flex items-center justify-between w-full h-20 px-4 text-white z-5 navbar'>
+    <div className='fixed flex items-center justify-between md:w-[80%] md:ml-[10%] h-20 px-4 text-white z-5 md:rounded-[30px] rounded-b-[30px] navbar w-full'>
         <div>
             <h1 className='ml-2 text-6xl font-signature'>Cavvoh</h1>
         </div>
