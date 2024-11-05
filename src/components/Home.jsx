@@ -6,7 +6,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const Home = () => {
   return (
-    <div name="Start" className="sm:pt-[180px] pt-[80px] w-full h-screen bg-gradient-to-tr from-[#ec7c26] to-[#7b1fa2] text-zinc-100">
+    <div name="Start" className="sm:pt-[180px] pt-[80px] w-full h-screen text-zinc-100">
         
         <div className='max-w-[1000px] flex flex-col items-center justify-center h-full px-4 mx-auto md:flex-row'>
             <div className="flex flex-col justify-center h-full">
