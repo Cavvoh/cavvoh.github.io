@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.644dab1b.css",
+    "main.css": "/static/css/main.9b7f5fd5.css",
     "main.js": "/static/js/main.a7844ded.js",
     "static/media/JonasLEGO_6.png": "/static/media/JonasLEGO_6.a96f6588b0c459c59e42.png",
     "static/media/workImg.jpeg": "/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "index.html": "/index.html",
-    "main.644dab1b.css.map": "/static/css/main.644dab1b.css.map",
+    "main.9b7f5fd5.css.map": "/static/css/main.9b7f5fd5.css.map",
     "main.a7844ded.js.map": "/static/js/main.a7844ded.js.map"
   },
   "entrypoints": [
-    "static/css/main.644dab1b.css",
+    "static/css/main.9b7f5fd5.css",
     "static/js/main.a7844ded.js"
   ]
 }
