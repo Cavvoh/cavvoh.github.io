@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-    <div className="blob-outer-container">
+    <div className="blob-outer-container opacity-[1] md:opacity-[0.6]">
       <div className="blob-inner-container">
         <div className="blob"></div>
       </div>

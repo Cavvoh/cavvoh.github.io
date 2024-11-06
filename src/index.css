@@ -62,8 +62,7 @@ body {
   z-index: -1;
   inset: 0;
   margin: auto;
-  filter: blur(100px);
-  opacity: 0.6;
+  filter: blur(321px);
 }
 
 .blob-inner-container {
@@ -75,8 +74,8 @@ body {
   height: 100vh;
   min-width: 100px;
   overflow: hidden;
-  background-color: #fff;
-  transform: scale(0.6);
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scale(1);
 }
 
 .blob {
@@ -85,19 +84,19 @@ body {
   height: 100vh;
   inset: 0;
   margin: auto;
-  background: conic-gradient(from 0deg, #7b1fa2, #ec7c26, #f1c40f, #34495e, #2ecc71, #e74c3c);
-  animation: spinBlob 32s ease-in-out infinite;
+  background: conic-gradient(from 0deg, #7b1fa2, #4caf50, #ffeb3b, #ec7c26, #d32f2f, #26c6da);
+  animation: spinBlob 64s ease-in-out infinite;
 }
 
 @keyframes spinBlob {
   0% {
-    transform: rotate(0deg) scale(2);
+    transform: rotate(0deg) scale(3);
   }
   50% {
-    transform: rotate(1turn) scale(2);
+    transform: rotate(1turn) scale(3);
   }
   100% {
-    transform: rotate(-1turn) scale(2);
+    transform: rotate(-1turn) scale(3);
   }
 }
 
