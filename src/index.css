@@ -27,6 +27,12 @@ body {
   animation: back 10s infinite ease-in-out;
 }
 
+.nav_mobile {
+  background: linear-gradient(to bottom left, #7b1fa2, #ec7c26, #7b1fa2);
+  background-size: 600% 600%;
+  animation: back 10s infinite ease-in-out;
+}
+
 @keyframes back {
   0% {
     background-position: 0 50%;
