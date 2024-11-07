@@ -33,16 +33,6 @@
   user-select: none; 
 }*/
 
-body {
-  background: rgba(0, 0, 0, 0.8);
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; 
-}
-
 /*.fixed-background {
   position: fixed;
   top: 0;
@@ -55,6 +45,16 @@ body {
   animation: back 10s infinite ease-in-out;
 }*/
 
+body {
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+}
+
 .blob-outer-container {
   position: fixed;
   height: 100%;
@@ -62,11 +62,9 @@ body {
   z-index: -1;
   inset: 0;
   margin: auto;
-  filter: blur(321px);
 }
 
 .blob-inner-container {
-  border-radius: 99999999px;
   position: absolute;
   inset: 0;
   margin: auto;
@@ -84,8 +82,8 @@ body {
   height: 100vh;
   inset: 0;
   margin: auto;
-  background: conic-gradient(from 0deg, #7b1fa2, #4caf50, #ffeb3b, #ec7c26, #d32f2f, #26c6da);
-  animation: spinBlob 64s ease-in-out infinite;
+  background: conic-gradient(from 0deg, #9b59b6, #f39c12, #7b1fa2, #ec7c26, #8e44ad, #f1c40f);
+  animation: spinBlob 57s ease-in-out infinite;
 }
 
 @keyframes spinBlob {
