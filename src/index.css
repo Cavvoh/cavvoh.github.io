@@ -196,3 +196,7 @@ body {
   border-bottom-width: 4px;
   border-color: rgba(0, 0, 0, 0.3);
 }
+
+.border_b {
+  border-color: rgba(0, 0, 0, 0.1);
+}
