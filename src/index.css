@@ -98,7 +98,13 @@ body {
   }
 }
 
-/*@keyframes back {
+.nav_mobile {
+  background: linear-gradient(to bottom left, #7b1fa2, #ec7c26, #7b1fa2);
+  background-size: 600% 600%;
+  animation: back 10s infinite ease-in-out;
+}
+
+@keyframes back {
   0% {
     background-position: 0 50%;
   }
@@ -108,12 +114,6 @@ body {
   100% {
     background-position: 0 50%;
   }
-}*/
-
-.nav_mobile {
-  background: linear-gradient(to bottom left, #7b1fa2, #ec7c26, #7b1fa2);
-  background-size: 600% 600%;
-  animation: back 10s infinite ease-in-out;
 }
 
 ::-webkit-scrollbar {

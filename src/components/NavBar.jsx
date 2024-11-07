@@ -39,7 +39,7 @@ const NavBar = () => {
 
         <div onClick={() => setNav(!nav)} className="z-10 pr-4 cursor-pointer text-zinc-100 md:hidden">
             <div>
-                {nav ? <FaTimes size={30} className='duration-200 hover:scale-105' /> : <FaBars size={30} className='duration-200 hover:scale-105' />}
+                {nav ? <FaTimes size={30} className='duration-200 hover:scale-105 btn p-[5px] w-[40px] h-[40px] ml-[15%]' /> : <FaBars size={30} className='duration-200 hover:scale-105' />}
             </div>
         </div>
 
