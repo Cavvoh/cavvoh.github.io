@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import HeroImage from "../assets/JonasLEGO_6.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import {Link} from 'react-scroll';
 import { Typewriter } from 'react-simple-typewriter'
 
 const Home = () => {
+    
+  useEffect(()=>{
+      document.title = "Cavvoh - Profil"
+  })    
+
   return (
     <div name="Start" className="sm:pt-[180px] pt-[80px] w-full h-screen text-zinc-100">
         
