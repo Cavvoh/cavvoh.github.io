@@ -22,7 +22,7 @@ const Projects = () => {
                                 <button className='px-4 py-3 m-2 text-lg font-bold text-center duration-200 button text-zinc-300 hover:scale-105'>Demo</button>
                             </a>*/}
                             <a href="https://github.com/Cavvoh-OS">
-                                <button className='px-4 py-3 m-2 text-lg font-bold text-center duration-200 button text-zinc-300 hover:scale-105'>Code</button>
+                                <button className='px-4 py-3 m-2 text-lg text-center duration-200 hover:font-semibold button text-zinc-300 hover:scale-105'>Code</button>
                             </a>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const Projects = () => {
                                 <button className='px-4 py-3 m-2 text-lg font-bold text-center duration-200 button text-zinc-300 hover:scale-105'>Demo</button>
                             </a>*/}
                             <a href="https://github.com/Cavvoh/cavvoh.github.io/tree/master">
-                                <button className='px-4 py-3 m-2 text-lg font-bold text-center duration-200 button text-zinc-300 hover:scale-105'>Code</button>
+                                <button className='px-4 py-3 m-2 text-lg text-center duration-200 hover:font-semibold button text-zinc-300 hover:scale-105'>Code</button>
                             </a>
                         </div>
                     </div>

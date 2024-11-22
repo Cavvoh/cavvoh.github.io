@@ -20,7 +20,7 @@ const Home = () => {
                     <Typewriter loop cursor cursorStyle="|" typeSpeed={70} deleteSpeed={50} delaySpeed={1000} words={['I have 8 years of experience building and desgining software.', 'I have 8 years of experience building and desgining software.']}/>
                 </p>
                 <div>
-                    <Link to='Projekte' smooth duration={500} className="flex items-center px-6 py-3 my-2 text-white duration-200 cursor-pointer z-5 group btn w-fit hover:scale-105">
+                    <Link to='Projekte' smooth duration={500} className="flex items-center px-6 py-3 my-2 text-white duration-200 cursor-pointer z-5 group btn w-fit hover:font-semibold hover:scale-105">
                         Projekte
                         <span className="duration-200 group-hover:rotate-90">
                             <MdOutlineKeyboardArrowRight size={20} className='ml-1' />

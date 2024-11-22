@@ -33,7 +33,7 @@ const NavBar = () => {
       {/* Desktop-Navbar */}
       <ul className="hidden md:flex">
         {links.map(({ id, name, target }) => (
-          <li key={id} className="px-4 font-medium duration-200 cursor-pointer text-zinc-100 hover:scale-105" onClick={() => handleScroll(target)}>
+          <li key={id} className="px-4 font-medium duration-200 cursor-pointer text-zinc-100 hover:font-semibold hover:scale-105" onClick={() => handleScroll(target)}>
             {name}
           </li>
         ))}
@@ -53,7 +53,7 @@ const NavBar = () => {
         <ul className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-screen nav_mobile text-zinc-100">
           
           {links.map(({ id, name, target }) => (
-            <li key={id} className="gap-3 px-4 py-6 my-[15px] text-4xl duration-200 cursor-pointer hover:scale-105 btn" onClick={() => {handleScroll(target); setNav(false);}}>
+            <li key={id} className="gap-3 px-4 py-6 my-[15px] text-4xl duration-200 cursor-pointer hover:font-semibold hover:scale-105 btn" onClick={() => {handleScroll(target); setNav(false);}}>
               {name}
             </li>
           ))}
