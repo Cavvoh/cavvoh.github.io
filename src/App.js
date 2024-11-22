@@ -1,7 +1,7 @@
 import Start from './Pages/Start';
 import Login from './components/Login';
 import Register from './components/Register';
-import { BrowserRouter as Router, Routes, Route, Redirect } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 
 
 function App() {
@@ -9,9 +9,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path='/' exact>
-            <Redirect to='/home' />
-          </Route>
+          <Route path='/' exact element={<Navigate to='/home' replace />}/>
 
           <Route path='/home' exact element={<Start/>}/>
 
