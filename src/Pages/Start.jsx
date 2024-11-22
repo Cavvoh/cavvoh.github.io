@@ -1,27 +1,39 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import About from "../components/About";
 import Home from "../components/Home";
-import NavBar from "../components/NavBar";
 import Projects from "../components/Projects";
-import Footer from "../components/Footer";
 
 
-function Start() {
+const Start = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const section = document.querySelector(location.hash);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+        window.history.replaceState({}, document.title, "/home");
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        window.history.replaceState({}, document.title, "/home");
+      }
+    }
+  }, [location]);
+
   return (
-    <>
-    <div className="blob-outer-container md:rounded-[9999px] rounded-[9999px] md:blur-[321px] blur-[200px] opacity-[60] md:opacity-[0.5]">
-      <div className="blob-inner-container">
-        <div className="blob"></div>
-      </div>
+    <div>
+      <section id="start">
+        <Home />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
     </div>
-    <NavBar />
-    <main>
-      <Home />
-      <About />
-      <Projects />
-    </main>
-    <Footer />
-    </>
   );
-}
+};
 
 export default Start;

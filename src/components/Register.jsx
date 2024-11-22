@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import NavBar from './NavBar'
 
 const Register = () => {
 
@@ -8,9 +7,7 @@ const Register = () => {
   })    
 
   return (
-    <>
-        <NavBar />
-    </>
+    <div>Register</div>
   )
 }
 

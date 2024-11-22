@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa';
-import {Link} from 'react-scroll';
+import {Link} from 'react-router-dom';
 
 const NavBar = () => {
 
@@ -9,15 +9,18 @@ const NavBar = () => {
     const links = [
         {
             id: 1,
-            link: 'Start'
+            name: 'Start',
+            link: '/home#start'
         },
         {
             id: 2,
-            link: 'Über mich'
+            name: 'Über mich',
+            link: '/home#about'
         },
         {
             id: 3,
-            link: 'Projekte'
+            name: 'Projekte',
+            link: '/home#projects'
         },
     ]
 
@@ -28,10 +31,10 @@ const NavBar = () => {
         </div>
 
         <ul className='hidden md:flex'>
-            {links.map(({id, link}) =>(
+            {links.map(({id, name, link}) =>(
                 <li key={id} className='px-4 font-medium duration-200 cursor-pointer text-zinc-100 hover:scale-105'>
-                    <Link to={link} smooth duration={500}>
-                        {link}
+                    <Link to={link}>
+                        {name}
                     </Link>
                 </li>
             ))}
@@ -46,10 +49,10 @@ const NavBar = () => {
         {nav && (
             <ul className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-screen nav_mobile text-zinc-100">
                 
-                {links.map(({id, link}) =>(
+                {links.map(({id, name, link}) =>(
                     <li key={id} className='gap-3 px-4 py-6 my-[15px] text-4xl duration-200 cursor-pointer hover:scale-105 btn'>
-                    <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>
-                        {link}
+                    <Link onClick={() => setNav(!nav)} to={link}>
+                        {name}
                     </Link>
                     </li>
                 ))}

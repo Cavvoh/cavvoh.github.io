@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import NavBar from './NavBar'
 
 const Login = () => {
 
@@ -8,9 +7,7 @@ const Login = () => {
   })    
 
   return (
-    <>
-        <NavBar />
-    </>
+    <div>Login</div>
   )
 }
 
