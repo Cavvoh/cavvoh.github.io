@@ -27,3 +27,4 @@ dist-ssr
 .dockerignore
 Dockerfile
 nginx.conf
+main.py
